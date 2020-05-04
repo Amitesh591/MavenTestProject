@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("amitesh591/democalculator")
+        app = docker.build("registry.hub.docker.com/amitesh591/democalculator")
     }
 
     stage('Test image') {
